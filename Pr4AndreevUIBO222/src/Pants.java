@@ -16,12 +16,5 @@ public class Pants extends Clothes implements MenClothing,WomenClothing {
         System.out.println("Женские штаны: размер: " + size + " цена: " + coast + " цвет: " + color);
     }
 
-    @Override
-    public String toString() {
-        return "Pants{" +
-                "size=" + size +
-                ", coast=" + coast +
-                ", color='" + color + '\'' +
-                '}';
-    }
+
 }

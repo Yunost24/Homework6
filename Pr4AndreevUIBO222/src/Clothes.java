@@ -21,6 +21,4 @@ public abstract class Clothes {
     public String getColor() {
         return color;
     }
-
-
 }
